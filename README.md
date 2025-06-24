@@ -10,7 +10,7 @@ Pre-requisite:
 Packages:
 ```
 import pandas
-from io import StringIOk
+from io import StringIO
 ```
 
 ---
