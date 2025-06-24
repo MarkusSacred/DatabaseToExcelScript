@@ -4,7 +4,8 @@ This script aims to create an automated report with the help of Python Script
 
 Pre-requisite
 ![SQL Server Developer](https://img.shields.io/github/license/yourusername/yourproject)
-![VS Studio Code SQL Server](https://img.shields.io/github/last-commit/yourusername/yourproject)
+[![VS Studio Code SQL Server](https://img.shields.io/github/last-commit/yourusername/yourproject)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?msockid=255b760893ae6f862b47600292af6e07)
+[![SQL Command Utility](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility?view=sql-server-ver16&tabs=odbc%2Cwindows%2Cwindows-support&pivots=cs1-cmd#download-and-install)
 
 Packages:
 ```
