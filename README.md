@@ -1,9 +1,16 @@
-# 🚀 Project Title
+# Automated Query from Database to CSV/TXT to Excel File
 
-A brief description of what this project does and who it's for.
+This script aims to create an automated report with the help of Python Script
 
-![License](https://img.shields.io/github/license/yourusername/yourproject)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/yourproject)
+Pre-requisite
+![SQL Server Developer](https://img.shields.io/github/license/yourusername/yourproject)
+![VS Studio Code SQL Server](https://img.shields.io/github/last-commit/yourusername/yourproject)
+
+Packages:
+```
+import pandas
+from io import StringIOk
+```
 
 ---
 
