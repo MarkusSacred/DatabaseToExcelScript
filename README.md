@@ -14,14 +14,19 @@ from io import StringIOk
 
 ---
 
-## 📚 Table of Contents
+#SQL Command Code:
+```
+sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W -h -1
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
+-s - Server name
+-d - Database name
+-e - Windows authentication
+-q - Your statement query
+-o - Destination / Output path
+-s - Separator Tab, comma, backslash etc.
+-W - Remove Trailing Spaces
+-h - Header (-h -1 hide header), (-h 1 print header every row)
+```
 
 ---
 
