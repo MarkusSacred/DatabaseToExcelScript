@@ -33,7 +33,7 @@ sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W 
 
 # Process
 
-Step 1: Now that we have your we have your query now, you can use with the file path of the SQL or the Query it self. 
+**Step 1:** Now that we have your we have your query now, you can use with the file path of the SQL or the Query it self. 
 
 ## Your Query
 
@@ -46,12 +46,15 @@ sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W 
 sqlcmd -S YourServerName -d YourDatabase -E -i "Your SQL file path" -o "/path" -s " " -W -h -1
 ```
 
-Step 2:
+**Step 2:**
 
 You can run your script using the Task scheduler in your windows. 
 
-![Demo](/images/CreateBasicTask.png)
-
+![Create Task](/images/CreateBasicTask.png)
+![Basic Task](/images/basicTask.png)
+![Frequency](/images/frequency.png)
+![Perform Task](/images/perform.png)
+![Script Upload](/images/scriptUpload.png)
 ---
 
 ## ▶️ Usage
