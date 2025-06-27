@@ -50,7 +50,7 @@ Step 2:
 
 You can run your script using the Task scheduler in your windows. 
 
-
+![Demo](/images/CreateBasicTask.png)
 
 ---
 
