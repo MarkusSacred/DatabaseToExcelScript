@@ -15,7 +15,7 @@ from io import StringIO
 
 ---
 
-#SQL Command Code:
+# SQL Command Code:
 ```
 sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W -h -1
 
@@ -31,15 +31,26 @@ sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W 
 
 ---
 
-## 💾 Installation
+# Process
 
-Clone the repository and install dependencies:
+Step 1: Now that we have your we have your query now, you can use with the file path of the SQL or the Query it self. 
 
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-npm install
+## Your Query
+
 ```
+sqlcmd -S YourServerName -d YourDatabase -E -Q "YourQuery" -o "/path" -s " " -W -h -1
+```
+## Your SQL
+
+```
+sqlcmd -S YourServerName -d YourDatabase -E -i "Your SQL file path" -o "/path" -s " " -W -h -1
+```
+
+Step 2:
+
+You can run your script using the Task scheduler in your windows. 
+
+
 
 ---
 
