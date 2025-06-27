@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCMD.EXE" -S JACWSi5281\MSSQLSERVER05 -d db_sample -Q "SELECT * FROM people" -o "C:\Users\215MArcedas\Desktop\fileFolder\report.csv" -s "," -W -h -1
