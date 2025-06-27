@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Origin and destination paths
-source_path_folder = r"C:\Users\215MArcedas\Desktop\fileFolder"
-destination_path_folder = r"C:\Users\215MArcedas\Desktop\destinationFolder"
+source_path_folder = r"Your Original Folder"
+destination_path_folder = r"Your Destination Folder"
 file_name = "report.csv"
 
 full_source_path = os.path.join(source_path_folder, file_name)
