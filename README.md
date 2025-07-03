@@ -56,8 +56,9 @@ You can run your script using the Task scheduler in your windows.
 ![Perform Task](/images/perform.png)
 ![Script Upload](/images/scriptUpload.png)
 ---
+**Step 3: Result**
 
-You will now get the result on the designated file path for the Output
+You will now get the result on the designated file path for the Output. Open the script for your references.
 
 ## 👤 Author
 
